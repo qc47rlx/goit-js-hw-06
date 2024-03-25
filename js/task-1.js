@@ -10,9 +10,9 @@ const customer = {
   getDiscount() {
     return this.discount;
   },
-  setDiscount(value) {
-    discount = this.value;
-  },
+ setDiscount(value) {
+  this.discount = value;
+},
   getOrders() {
     return this.orders;
   },
